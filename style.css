@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(Imagens/Walpaper2.png);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-principal {
+    width: 1120px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+/*Incio relogio*/
+p {
+    color: black;
+    font-weight: 800;
+}
+
+.relogio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.box-relogio {
+    background-color:rgba(255, 255, 255, 0.4);
+    padding: 45px 30px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.data {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    text-shadow: 0 0 25px black;
+    color: #b17197;
+}
+
+.secundario {
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    font-size: 23px;
+    font-family: monospace;
+}
+
+.hora {
+    color: #567786;
+    background-color: black;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.dia {
+    font-family: 'chakra Petch';
+}
+.terceiro {
+    color: #2c3848;
+    display: flex;
+    justify-content: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 15px;
+    gap: 20px;
+}
+
+h2 {
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: monospace;
+    width: 250px;
+}
+
+.contador {
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    margin-top: 5px;
+    justify-content: center;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.box-contador {
+    margin-top: 20px;
+}
+
+.dias, .horas, .minutos, .segundos {
+color: 
+#567786 ;
+font-weight: bold;
+display: flex;
+flex-direction: column;
+height: 30px;
+
+}
+
+span {
+    text-decoration: line-through;
+    text-decoration-color: #b17197;
+}
+
+.letras {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    font-size: 16px;
+    color: #567786;
+    background-color: black;
+    margin-top: -1px;
+    padding-top: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'chakra Petch';
+    height: 30px;
+
+}
+
+.letras p {
+    text-align: center;
+    color: #868a8b;
+}
+/*Fim relogio*/
+
+/* Botão*/
+
+.botao {
+    display: flex;
+}
+
+button {
+    position: relative;
+    top: 280px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #567786;
+    background-color:rgba(0, 0, 0, 0.8);
+    border: none;
+    font-family: 'chakra Petch';
+    transition: 1s;
+    box-shadow: 10px  25px  25px #000;
+}
+
+button:hover {
+    background-color: #000;
+    color: #b17197;
+    width: 150px;
+    transition: 1s;
+    font-size: 16px;
+    box-shadow: 15px  25px  25px #000000;
+}
+
+a {
+    transition: 1s;
+}
